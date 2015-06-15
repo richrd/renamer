@@ -104,10 +104,10 @@ class Renamer:
 
         action = args[1]
         actions = {
-            "del": self.delete,
+            "remove": self.delete,
             "append": self.append,
             "prepend": self.prepend,
-            "make_numeric": self.make_numeric,
+            "to_numeric": self.make_numeric,
             "truncate": self.truncate,
             "add": self.add,
             "subtract": self.subtract,
